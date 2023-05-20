@@ -1,0 +1,25 @@
+.search_result {
+    display: flex;
+    align-items: flex-start;
+}
+
+.search_result>img {
+    margin-right: 16px;
+    max-width: 360px;
+    min-width: 240px;
+    flex: 1;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.search_result_info {
+    max-width: none;
+    min-width: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.search_result_info > div{
+display: flex;
+align-items: center;
+}
